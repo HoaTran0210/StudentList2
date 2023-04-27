@@ -1,0 +1,35 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.studentlist{
+    margin: 50px auto;
+    width: 500px;
+    background: linear-gradient(135deg,#2c3e50, #747d8c);
+    padding: 20px 20px;
+    color: #fbc531;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.studentlist span{
+    display: inline-block;
+    width: 85%;
+}
+.studentlist span.complete{
+    text-decoration: line-through;
+}
+.studentlist .formAdd input{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.student{
+    font-size: 30px;
+    border-bottom: solid 1px #fbc531;
+    padding: 10px 0;
+}
+.studentlist .editForm input{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 20px;
+}
